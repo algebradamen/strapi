@@ -46,8 +46,12 @@ async function showDikts(doc) {
     `;
 }
 
+
 // Henter både nyheter og dikt ved lasting av siden
 window.onload = () => {
     fetchList('nyheter');
     fetchList('dikts');
 };
+
+
+
